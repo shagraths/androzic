@@ -20,6 +20,8 @@
 
 package com.androzic.data;
 
+import java.util.Date;
+
 public class Waypoint
 {
 	public String name = "";
@@ -33,6 +35,7 @@ public class Waypoint
 	public WaypointSet set = null;
 	public int textcolor = Integer.MIN_VALUE;
 	public int backcolor = Integer.MIN_VALUE;
+	public Date date;
 
 	public Waypoint()
 	{
